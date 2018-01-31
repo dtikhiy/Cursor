@@ -1,0 +1,86 @@
+body{
+    background-color: #638a79;
+    background-image: url("img/body-bg.png");
+    background-repeat: repeat-x;
+    background-position: fixed;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    font-family: Arial;
+}
+
+.content {
+    width: 840px;
+    background: #fff;
+    margin: 100px auto 0;
+}
+.content .content-top {
+    height: 12px;
+    background-image: url("img/content-bg.png");
+}
+.content .content-bottom {
+    height: 12px;
+    background-image: url("img/content-bg.png");
+    transform: scaleY(-1);
+}
+.content .content-middle {
+    margin: 20px 30px;
+}
+	
+h1 { 
+    font-size: 26px;
+    line-height: 36px;
+    color: #2b8c57;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+h2 { 
+    font-size: 18px;
+    line-height: 28px;
+    color: #2b8c57;
+    font-style: italic;
+    font-weight: normal;
+    margin: 30px 0px 15px;
+}
+	
+div.block-1 {
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    padding: 20px 30px;
+    background-color: #2b8c57;
+    background-image: url(img/block-1-bg.png);
+    background-repeat: repeat-x;
+    background-size: top;
+
+}
+div.block-2 {
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    padding: 20px 30px;
+    background-color: #356149;
+    background-image: url(img/picture-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+a.button {
+    width: 121рх;
+    height: 38px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-image: url(img/button-1.png);
+    background-position-y: 0px;
+    background-size: auto;
+    display: block;
+}
+a.button:hover {
+    background-image: url(img/button-1.png);
+    background-position-y: -38px;
+
+}
+a.button:active {
+    background-image: url(img/button-1.png);
+    background-position-y: -76px;
+}
